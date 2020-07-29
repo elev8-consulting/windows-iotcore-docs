@@ -161,7 +161,7 @@ In general, the recommendation is not to modify the resulting package produced b
 
 -   Updates happen on package granularity. If a single asset in the package needs to be updated, then all the assets of that package will be updated at the same time. To reduce the size of updates, isolate content into separate packages to minimize the overall update size.
 
-### Adding additional files through Platform Builder {#adding-additional-files-through-platform-builder .ListParagraph}
+### Adding additional files through Platform Builder
 
 The packaging process detailed above is driven by the same inputs that go into building a CE BIN file. So, if the files are referenced in OSDesign.bib and registry entries are added to OSDesign.reg, the `MAKEIMG` process will include these files in the resulting CAB file. During this process `MAKEIMG` will now:
 
@@ -287,8 +287,8 @@ Options:
 |                          |                                                                                          |
 
 ## References
-[Get the tools needed to customize Windows IoT Core](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/set-up-your-pc-to-customize-iot-core)
-[IoT Core Board Supported Packages (BSP)](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/bsphardware)
-[IoT Core Manufacturing Guide](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iot-core-manufacturing-guide)
-[Windows 10 IoT Core Dashboard](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard)
-[Create and Install Packages](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/create-install-package)
+ - [Get the tools needed to customize Windows IoT Core](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/set-up-your-pc-to-customize-iot-core)
+ - [IoT Core Board Supported Packages (BSP)](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/bsphardware)
+ - [IoT Core Manufacturing Guide](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/iot-core-manufacturing-guide)
+ - [Windows 10 IoT Core Dashboard](https://docs.microsoft.com/en-us/windows/iot-core/connect-your-device/iotdashboard)
+- [Create and Install Packages](https://docs.microsoft.com/en-us/windows-hardware/manufacture/iot/create-install-package)
